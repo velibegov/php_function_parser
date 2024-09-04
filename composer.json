@@ -1,0 +1,21 @@
+{
+    "name": "velibegov/php_parser",
+    "description": "Library to get functions descriptions from php.net",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Velibegov\\PhpParser\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "velibegov",
+            "email": "velibegov@mail.ru"
+        }
+    ],
+    "require": {
+        "ext-libxml": "*",
+        "ext-dom": "20031129"
+    }
+}
